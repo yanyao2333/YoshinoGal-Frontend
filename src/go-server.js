@@ -1,7 +1,4 @@
 const { spawn } = require('child_process');
-const {writeFileSync} = require("fs");
-const {join} = require("node:path");
-
 function startGoServer() {
     // 生成随机端口号
     const port = Math.floor(Math.random() * (65535 - 1024) + 1024);
