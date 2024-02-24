@@ -4,7 +4,7 @@ import {
 } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: '游戏库', href: '#', icon: BuildingLibraryIcon,  current: true },
+  { name: '游戏库', href: '/', icon: BuildingLibraryIcon,  current: true },
   { name: '设置', href: '#', icon: AdjustmentsHorizontalIcon, current: false },
 ]
 
@@ -18,7 +18,7 @@ export default function Sidebar() {
       <div className="flex h-16 shrink-0 items-center">
         <img
           className="h-8 w-auto"
-          src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfvW3DwpzD8iXIC4TwjXGuFpaNgdHgXWGCkpa8Dh01yA&s"
           alt="Your Company"
         />
       </div>
@@ -64,7 +64,7 @@ export default function Sidebar() {
             >
               <img
                 className="h-8 w-8 rounded-full bg-gray-50"
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfvW3DwpzD8iXIC4TwjXGuFpaNgdHgXWGCkpa8Dh01yA&s"
                 alt=""
               />
               <span className="select-none" aria-hidden="true">Yoshino Gal</span>
